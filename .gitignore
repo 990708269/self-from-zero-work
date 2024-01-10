@@ -1,0 +1,25 @@
+# 提示！ 如果 Prettier 存在于运行它的同一目录中，则 Prettier 将遵循 .gitignore 中指定的规则。 你还可以将 .prettierignore 建立在 .eslintignore 的基础上（如果你有的话）。
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
